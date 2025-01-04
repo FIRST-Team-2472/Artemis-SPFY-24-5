@@ -7,12 +7,15 @@ import frc.robot.Constants;
 import frc.robot.Constants.MotorConstants;
 
 public class BallTransferSubsystem extends SubsystemBase{
-    public TalonFX IntakeMotor1TalonFx = new TalonFX(Constants.MotorConstants.kIntakeWheelsID);
-    public TalonFX IntakeMotor2TalonFx = new TalonFX(Constants.MotorConstants.kConveyerID);
-    public TalonFX IntakeMotor3TalonFx = new TalonFX(Constants.MotorConstants.kElevatorIDyj);
+    public TalonFX IntakeMotor = new TalonFX(Constants.MotorConstants.kIntakeWheelsID);
+    public TalonFX ConveyerMotor = new TalonFX(Constants.MotorConstants.kConveyerID);
+    public TalonFX ElevatorMotor = new TalonFX(Constants.MotorConstants.kElevatorID);
 
     public BallTransferSubsystem(){
 
+    }
+    public void intakeMotorPower (){
+        
     }
     public void periodic(){
         
